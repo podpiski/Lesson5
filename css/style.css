@@ -1,0 +1,290 @@
+/*=======================================Подключения=================================================*/
+/* &display=swap */
+
+@import "null.css";
+@import url('https://fonts.googleapis.com/css2?family=Cousine:700,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+@font-face {
+   font-family: Montserrat;
+   src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: Montserrat;
+   src: url("../fonts/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat-Bold.woff") format("woff");
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: Montserrat;
+   src: url('../fonts/Montserrat-Black.woff2') format('woff2'), url('../fonts/Montserrat-Black.woff') format('woff');
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+/*===============================CSS оформление===========================================================*/
+.head{
+   font-family: Balsamiq_sans, Arial, san-serif;
+   font-weight: 400;
+   font-size: 20px;
+   display: inline-block;
+   min-height: 20px;
+   color: blue;
+   padding: 10px 5px;
+}
+
+
+
+.main {
+   font-family: Montserrat, Arial, sans-serif;
+   font-size: 35px;
+   font-weight: 900;
+   padding: 20px 100px;
+   margin: 10px auto 10px;
+   color: brown;
+   text-align: center;
+   text-transform: uppercase;
+   text-decoration: underline;
+   text-shadow: 10px 5px 5px #777;
+}
+.crysis {
+   font-family: Montserrat, Arial, sans-serif;
+   font-size: 25px;
+   font-weight: 700;
+   color: saddlebrown;
+   text-align: right;
+   padding: 0 20px 10px 0;
+   margin: 0 300px 15px;
+   text-decoration: line-through;
+   text-shadow: -10px 10px 5px #000;
+
+}
+.crysis-text {
+   max-width: 800px;
+   font-family: Balsamiq_sans, Arial, sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   margin: 10px 0 20px 50px;
+}
+.crysis-text1 {
+   padding: 5px 0 5px;
+   margin: 0 0 15px 0;
+
+}
+.crysis-text2 {
+   padding: 5px 0 5px;
+   margin: 0 0 15px 0;
+}
+.crysis-text3 {
+   padding: 5px 0 5px;
+   margin: 0 0 30px 0;
+}
+.quote {
+}
+.quote-text {
+   width: 700px;
+   margin: 0 80px 40px;
+}
+.crysis-quote {
+}
+.smm-text {
+   max-width: 850px;
+   font-family: Montserrat, Arial, sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   margin: 10px 0 20px 50px;
+   max-height:  50px;
+   overflow: hidden;
+   /*overflow: scroll;*/
+   /*overflow: auto;*/
+}
+.smm-text-2 {
+   max-width: 850px;
+   font-family: Montserrat, Arial, sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   margin: 0px 0 20px 50px;
+   max-height:  50px;
+   /*overflow: hidden;*/
+   overflow: scroll;
+   /*overflow: auto;*/
+}
+.smm-text-3 {
+   max-width: 850px;
+   font-family: Montserrat, Arial, sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   margin: 0px 0 20px 50px;
+   max-height:  50px;
+   /*overflow: hidden;*/
+   /*overflow: scroll;*/
+   overflow: auto;
+}
+.smm-text-4 {
+   max-width: 850px;
+   font-family: Montserrat, Arial, sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   margin: 0px 0 120px 50px;
+   max-height:  50px;
+   overflow: visible;
+}
+.smm-text1 {
+}
+.smm-text2 {
+}
+.smm-text3 {
+}
+.unideal {
+   font-family: Montserrat, Arial, sans-serif;
+   font-size: 25px;
+   font-weight: 700;
+   color: green;
+   text-align: center;
+   padding: 0 20px 10px 0;
+   margin: 0 300px 15px;
+   text-decoration: overline;
+   text-shadow: -20px -10px 5px gray;
+}
+.unideal-ext {
+   font-family: Cousine, Arial, sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   margin: 0px 0 20px 50px;
+   text-indent: 15px;
+
+}
+.unideal-text2 {
+   font-family: Cousine, Arial, sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   letter-spacing: 10px;
+   margin: 0px 0 20px 50px;
+}
+.autor {
+   font-family: Cousine, Arial, sans-serif;
+   letter-spacing: normal;
+   
+
+
+}
+.list{
+   font-family: Monserrat, Arial, sens-serif;
+   font-size: 15px;
+   font-weight: 400;
+   word-spacing: 10px;
+   margin: 0 0 20px 70px;
+
+}
+.list-text{
+   padding: 0px 0 5px 0;
+}
+.remember {
+   font-family: Monserrat, Arial, sans-serif;
+   font-size: 45px;
+   font-weight: 900;
+   color: hotpink;
+   padding: 0 0 20px 0;
+   margin: 0 0 20px 50px;
+}
+.logo{
+   padding: 0 0 20px 0;
+   margin: 0 0 0px 50px;
+}
+.link{
+   color: indigo;
+   text-decoration: underline;
+
+}
+.remember-text {
+}
+/*==============================index2=====================================*/
+.h1{
+   min-width: 810px;
+   margin: 190px 765px 92px 345px;
+   ffont-family: Lato, Arial, sans-serif;
+   font-weight: 900;
+   font-style: normal;
+   font-size: 46px;
+}
+
+.image{
+   min-width: 810px;
+   min-height: 360px;
+   margin: 0px 765px 60px 345px;
+}
+.text1{
+   min-width: 810px;
+   font-family: Lato, Arial, sans-serif;
+   font-size: 20px;
+   font-weight: 700;
+   font-style: normal;
+   margin: 0 765px 24px 345px;
+   padding: 0 20px 0 0;
+}
+.text2{
+   min-width: 810px;
+   font-family: Lato, Arial, sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   font-style: normal;
+   padding: 0 20px 0 0;
+   margin: 0 765px 40px 345px;
+   line-height: 1.6;
+}
+.text3{
+   min-width: 810px;
+   font-family: Lato, Arial, sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   font-style: normal;
+   padding: 0 20px 0 0;
+   margin: 0 765px 30px 345px;
+   line-height: 1.6;
+}
+.quote{
+   min-width: 810px;
+   font-family: Lato, Arial, sans-serif;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   margin: 0 765px 48px 345px;
+   padding: 0 20px 0 58px;
+}
+.text4{
+   min-width: 810px;
+   font-family: Lato, Arial, sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   font-style: normal;
+   padding: 0 20px 0 0;
+   margin: 0 765px 24px 345px;
+   line-height: 1.6;
+}
+.list1-2{
+   min-width: 600px;
+}
+.List2-2{
+   min-width: 600px;
+   font-family: Lato, Arial, sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   font-style: normal;
+   margin: 0 975px 10px 377px;
+}
+
+.text5{
+   min-width: 810px;
+   font-family: Lato, Arial, sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   font-style: normal;
+   padding: 0 20px 0 0;
+   margin: 24px 765px 24px 345px;
+   line-height: 1.6;
+}
+
